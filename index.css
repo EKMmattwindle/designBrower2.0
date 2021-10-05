@@ -1,0 +1,104 @@
+.page-container {
+  max-width: 1400px;
+  width: 100%;
+}
+.page-header-container{
+  position: relative;
+  max-width: 1400px;
+  width: 100%;
+  padding-top: 50px;
+}
+.page-content-container{
+  padding-top: 20px;
+}
+.page-header{
+  margin: 0;
+}
+
+.template-items{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 20px;
+}
+li.template-item.template-default{
+  grid-column: -1 / 1;
+  padding: 20px;
+}
+.template-default:before{
+  font-size: 1rem;
+  padding: 10px 30px;
+  border-radius: 100vw;
+  display: inline-block;
+  width: auto;
+  font-weight: 600;
+  background: #a5d6a7
+}
+.button-row{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.template-description{
+  line-height: 1.5;
+  margin: 20px 0;
+}
+.template-name{
+  font-size: 2rem;
+}
+.uifw-frm-button.grey, .ui-dialog-buttonpane .ui-button.grey, .uifw-frm-button.grey.disabled:hover, .uifw-frm-button.grey.disabled:active, button.uifw-frm-button.uifw-icon, a.uifw-frm-button.uifw-icon {
+  border-radius: 100vw;
+  padding: 10px 20px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: 400;
+  border: none;
+  box-shadow: none;
+}
+
+.uifw-frm-button.red, .ui-button.red, .uifw-frm-button.red.disabled:hover, .uifw-frm-button.red.disabled:active{
+  background: #e57373;
+}
+.uifw-frm-button, .ui-dialog-buttonpane .ui-button{
+  background: #42a5f5
+}
+.uifw-frm-button.grey, .ui-dialog-buttonpane .ui-button.grey, .uifw-frm-button.grey.disabled:hover, .uifw-frm-button.grey.disabled:active{
+  background: #cfd8dc;
+  color: #323232;
+}
+.selected-item{
+  box-shadow: none;
+  border: none;
+  background: white;
+}
+.pack-description{
+  max-width: 900px;
+  line-height: 1.5;
+  padding: 20px 0 
+  ;
+}
+
+.page-numbers{
+  padding: 10px;
+  background-color: #EEE;
+  width: 100%;
+  margin: 20px 0 ;
+  display: block;
+}
+.page-numbers strong{
+  padding: 10px;
+  background-color: #42a5f5;
+  color: white;
+}
+.page-numbers a{
+  padding: 10px;
+  color: #333;
+  text-decoration: none;
+}
+
+h1:after {
+  content: " v2.0";
+  font-size: 1.2rem;
+  opacity: 0.5;
+  font-style: italic;
+}
