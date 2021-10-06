@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Display:ital,wght@0,300;0,400;0,600;0,800;1,400&display=swap');
+
 .page-container {
   max-width: 1400px;
   width: 100%;
+  font-family: 'Noto Sans Display', sans-serif;
 }
 .page-header-container{
   position: relative;
@@ -54,6 +57,7 @@ li.template-item.template-default{
   font-weight: 400;
   border: none;
   box-shadow: none;
+  font-family: 'Noto Sans Display', sans-serif;
 }
 
 .uifw-frm-button.red, .ui-button.red, .uifw-frm-button.red.disabled:hover, .uifw-frm-button.red.disabled:active{
@@ -101,4 +105,8 @@ h1:after {
   font-size: 1.2rem;
   opacity: 0.5;
   font-style: italic;
+}
+
+html body {
+  
 }
