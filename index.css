@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Display:ital,wght@0,300;0,400;0,600;0,800;1,400&display=swap');
 
+*{
+  box-sizing: border-box;
+}
 .page-container {
   max-width: 1400px;
   width: 100%;
@@ -15,10 +18,11 @@
   padding-top: 20px;
 }
 .page-header{
-  margin: 0;
+  margin: 0 auto;
+  width: 100%;
 }
 
-.template-items{
+.template-items, .pack-items{
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
   gap: 20px;
@@ -99,12 +103,38 @@ li.template-item.template-default{
   color: #333;
   text-decoration: none;
 }
-
+h1{
+  font-size: 2.75rem;
+}
 h1:after {
   content: " v2.0";
   font-size: 1.2rem;
-  opacity: 0.5;
+  opacity: 0.75;
   font-style: italic;
+  font-weight: 400;
+}
+
+.pack-item > p > a{
+  font-size: 2rem;
+}
+.pack-author a{
+  text-decoration: none;
+  color: #333;
+}
+
+form {
+  border: none;
+  box-shadow: none;
+  color: #333;
+}
+
+form label {
+   color: #333;
+}
+.item-filter{
+  background: #eee;
+  padding: 5px;
+  margin-bottom: 15px;
 }
 
 html body {
